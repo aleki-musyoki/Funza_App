@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Funza</string>
+    <!--Questions here -->
+    <string name="question">This is the first question</string>
+    <string name="optionA">A</string>
+    <string name="optionB">B</string>
+    <string name="optionC">C</string>
+    <string name="optionD">D</string>
+    <!--Login and registration strings Here -->
+    <string name="tvSignup">Sign Up</string>
+
+
+    <!--Quizpage stings here-->
+    <string name="home">Home Page</string>
+    <string name="science">Science</string>
+    <string name="maths">Maths</string>
+    <string name="english">English</string>
+
+    <!--Register page strings here -->
+    <string name="tvLogin">Already a member? Sign in</string>
+
+    <!--Sign In Page strings here-->
+    <string name="tvSignIn">Sign In</string>
+    <string name="btnSignIn">Sign In</string>
+    <string name="tvInfo">No. of Attempts Remaining : </string>
+    <string name="tvForgotPassword">Forgot Password?</string>
+    <string name="checkRemember">Remember Me</string>
+    <string name="tvGoSignup">Not a member yet? Create Account</string>
+
+    <!--Landing page strings here-->
+    <string name="tv_join_now">Not a member yet?</string>
+
+    <!--Alertbox strings here-->
+    <string name="dialogue_message">Send Email ?</string>
+    <string name="dialogue_title">Get Report</string>
+    <string name="dialogue_exit">Do you want to exit and log out of app ?</string>
+    <string name="dialogue_go">Exit App</string>
+</resources>

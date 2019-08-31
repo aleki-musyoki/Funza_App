@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D7FFB700</color>
+    <color name="colorPrimaryDark">#FFB700</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="logout">#423737</color>
+    <color name="tvCorrect">#649647</color>
+    <color name="tvWrong">#A31A1A</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorTransparentWhite">#cccccc</color>
+</resources>

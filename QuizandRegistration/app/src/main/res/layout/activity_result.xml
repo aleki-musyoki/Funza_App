@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+
+    <TextView
+        android:id="@+id/tvStatistics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+        android:text="Statistics:"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textAnswersCompleted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvStatistics"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:text="Total"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvResultsAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvStatistics"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="62dp"
+        android:layout_toRightOf="@+id/textAnswersCompleted"
+        android:text="5"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvCorrect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textAnswersCompleted"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="25dp"
+        android:textColor="@color/tvCorrect"
+        android:text="Correct:" />
+
+    <TextView
+        android:id="@+id/tvWrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCorrect"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/tvWrong"
+        android:textSize="25dp"
+        android:text="Incorrect" />
+
+    <TextView
+        android:id="@+id/tvCorrectAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textAnswersCompleted"
+        android:layout_toRightOf="@+id/tvCorrect"
+        android:layout_marginTop="27dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="20dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvWrongAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCorrect"
+        android:layout_marginTop="27dp"
+        android:layout_toRightOf="@+id/tvWrong"
+        android:layout_marginLeft="90dp"
+        android:textSize="20sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvTakeDifferentQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvWrong"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="183dp"
+        android:text="Want to take another quiz?"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tvCompleted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvStatistics"
+        android:textSize="20dp"
+        android:text="Completed Quiz:"
+        android:textStyle="italic"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:id="@+id/btnReport"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_login"
+        android:text="Get Report"
+        android:textColor="#FFB700"
+        android:layout_below="@+id/tvWrong"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="90dp"
+        />
+
+
+</RelativeLayout>
